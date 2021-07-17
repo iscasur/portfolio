@@ -1,0 +1,17 @@
+.button {
+  background: var(--primary);
+  color: var(--white);
+  font: var(--button);
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.4rem;
+  text-transform: uppercase;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button--invert {
+  background: unset;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}

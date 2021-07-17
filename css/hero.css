@@ -1,0 +1,17 @@
+.hero {
+  padding: 1rem;
+}
+
+.hero__img {
+  text-align: center;
+}
+
+.hero__description {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.hero .social {
+  padding-bottom: 2.4rem;
+}

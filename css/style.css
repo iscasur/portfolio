@@ -1,0 +1,64 @@
+@import './button.css';
+@import './button-icon.css';
+@import './header.css';
+@import './hero.css';
+@import './wrapper.css';
+
+:root {
+  /* Fonts */
+  --font-base: 'Poppins', sans-serif;
+  --headline1: 700 9.6rem/15.2rem var(--font-base);
+  --headline2: 700 6.4rem/9.6rem var(--font-base);
+  --headline3: 700 4.8rem/7.2rem var(--font-base);
+  --headline4: 700 3.2rem/5.6rem var(--font-base);
+  --headline5: 700 2.4rem/4rem var(--font-base);
+  --body1: 1.6rem/2.4rem var(--font-base);
+  --body2: 1.2rem/2rem var(--font-base);
+
+  /* Elements **/
+  --button: 700 1.2rem/2rem var(--font-base);
+  --caption: 1rem/1.8rem var(--font-base);
+  
+  /* Colors */
+  --primary: #310a90;
+  --secondary: #42e2b8;
+  --white: #FFF;
+  --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: var(--gradient);
+  min-height: 100vh;
+  font: var(--body1);
+  color: var(--primary);
+}
+
+h1 {
+  font: var(--headline1)
+}
+
+h2 {
+  font: var(--headline2)
+}
+
+h3 {
+  font: var(--headline3)
+}
+
+h4 {
+  font: var(--headline4)
+}
+
+h5 {
+  font: var(--headline5)
+}
