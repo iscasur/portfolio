@@ -9,5 +9,5 @@ header {
   justify-content: space-between;
   align-items: center;
   block-size: 8rem;
-  padding: 1rem;
+  /* padding: 1rem; */
 }

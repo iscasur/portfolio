@@ -4,6 +4,7 @@
 @import './hero.css';
 @import './container.css';
 @import './menu.css';
+@import './project.css';
 
 :root {
   /* Fonts */
@@ -15,6 +16,7 @@
   --headline5: 700 2.4rem/4rem var(--font-base);
   --body1: 1.6rem/2.4rem var(--font-base);
   --body2: 1.2rem/2rem var(--font-base);
+  --lead: 2.4rem/4rem var(--font-base);
 
   /* Elements **/
   --button: 700 1.2rem/2rem var(--font-base);

@@ -1,5 +1,5 @@
 .hero {
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 .hero__img {
@@ -25,6 +25,7 @@
   .hero__description {
     order: 1;
     max-inline-size: 45rem;
+    align-self: flex-end;
   }
 
   .hero__img {
