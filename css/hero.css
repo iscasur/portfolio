@@ -15,3 +15,27 @@
 .hero .social {
   padding-bottom: 2.4rem;
 }
+
+@media screen and (min-width: 768px) {
+  .hero .container {
+    display: flex;
+    gap: 3.2rem;
+  }
+
+  .hero__description {
+    order: 1;
+    max-inline-size: 45rem;
+  }
+
+  .hero__img {
+    order: 2;
+    text-align: end;
+    flex: 1;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero__img img {
+    inline-size: 500px;
+  }
+}
